@@ -1,0 +1,58 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 10,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "title-of-your-feature;title-of-your-scenario-outline;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 37805767128,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "This is cucumber test",
+            "match": {
+              "location": "FlipKartStepdefinitions.test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Login"
+          },
+          {
+            "line": 1,
+            "name": "@Moblie-123"
+          },
+          {
+            "line": 1,
+            "name": "@Mobile"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "FlipkartE2E.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Mobile"
+      },
+      {
+        "line": 1,
+        "name": "@Moblie-123"
+      }
+    ]
+  }
+]

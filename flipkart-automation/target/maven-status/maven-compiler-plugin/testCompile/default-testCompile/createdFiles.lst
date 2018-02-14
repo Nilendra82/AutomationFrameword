@@ -1,0 +1,5 @@
+com\flipkart\test\BaseIntegration.class
+com\test\runner\Runner.class
+com\test\runner\Runner$TestRunner.class
+com\flipkart\test\InitializeBrowser.class
+com\flipkart\stepdefinitions\FlipKartStepdefinitions.class

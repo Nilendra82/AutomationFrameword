@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Smoke]">
+  <test thread-count="5" name="FlipKartTest(failed)">
+    <classes>
+      <class name="com.test.runner.Runner$TestRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.test.runner.Runner$TestRunner -->
+    </classes>
+  </test> <!-- FlipKartTest(failed) -->
+</suite> <!-- Failed suite [Smoke] -->
