@@ -1,58 +1,58 @@
 [
   {
+    "id": "title-of-your-feature",
+    "tags": [
+      {
+        "name": "@Mobile",
+        "line": 1
+      },
+      {
+        "name": "@Moblie-123",
+        "line": 1
+      }
+    ],
+    "description": "",
+    "name": "Title of your feature",
+    "keyword": "Feature",
     "line": 2,
     "elements": [
       {
-        "line": 10,
-        "name": "Title of your scenario outline",
+        "id": "title-of-your-feature;title-of-your-login-scenario-outline;;2",
+        "tags": [
+          {
+            "name": "@Login-123",
+            "line": 12
+          },
+          {
+            "name": "@Mobile",
+            "line": 1
+          },
+          {
+            "name": "@Moblie-123",
+            "line": 1
+          }
+        ],
         "description": "",
-        "id": "title-of-your-feature;title-of-your-scenario-outline;;2",
-        "type": "scenario",
+        "name": "Title of your login scenario outline",
         "keyword": "Scenario Outline",
+        "line": 18,
         "steps": [
           {
             "result": {
-              "duration": 37805767128,
+              "duration": 158263288,
               "status": "passed"
             },
-            "line": 6,
-            "name": "This is cucumber test",
+            "name": "This is cucumber test2",
+            "keyword": "Given ",
+            "line": 14,
             "match": {
-              "location": "FlipKartStepdefinitions.test()"
-            },
-            "keyword": "Given "
+              "location": "FlipKartStepdefinitions.test2()"
+            }
           }
         ],
-        "tags": [
-          {
-            "line": 4,
-            "name": "@Login"
-          },
-          {
-            "line": 1,
-            "name": "@Moblie-123"
-          },
-          {
-            "line": 1,
-            "name": "@Mobile"
-          }
-        ]
+        "type": "scenario"
       }
     ],
-    "name": "Title of your feature",
-    "description": "",
-    "id": "title-of-your-feature",
-    "keyword": "Feature",
-    "uri": "FlipkartE2E.feature",
-    "tags": [
-      {
-        "line": 1,
-        "name": "@Mobile"
-      },
-      {
-        "line": 1,
-        "name": "@Moblie-123"
-      }
-    ]
+    "uri": "FlipkartE2E.feature"
   }
 ]

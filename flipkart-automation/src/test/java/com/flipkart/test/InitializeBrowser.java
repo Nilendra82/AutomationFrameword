@@ -8,7 +8,7 @@ public class InitializeBrowser {
 	private final static String TEST_PLATFORM = "TEST_PLATFORM";
 	public static String getBrowserName() {
 		String browser = null;
-		/*if(System.getProperty(TEST_BROWSER).equalsIgnoreCase("Firefox"))
+		if(System.getProperty(TEST_BROWSER).equalsIgnoreCase("Firefox"))
  	    {
 			browser = "Firefox";
  		}
@@ -28,9 +28,9 @@ public class InitializeBrowser {
 		else
 		{
 			logger.info("Please use Firefox/Chrome/IE/PhantomJSWin/only");
-		}*/
+		}
 		
-		browser = FlipkartProperties.getPropertiesValue("browser");
+		//browser = FlipkartProperties.getPropertiesValue("browser");
 		System.out.println(browser);
 		return browser;
 	}
